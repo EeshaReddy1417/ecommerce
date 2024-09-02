@@ -1,1 +1,1 @@
-ecommerce end to end shoppinh website
+ecommerce end to end shopping website
