@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Spartan', sans-serif;
+}
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+h2 {
+    font-size: 46px;
+    line-height: 64px;
+    color:#222;
+}
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+h6 {
+    font-weight: 700; 
+    font-size: 12px;
+}
+p {
+font-size: 16px; 
+color: #465b52;
+margin: 15px 0 20px 0;
+}
+.section-p1 {
+padding: 40px 80px;
+}
+.section-m1 {
+margin: 40px 0;
+}
+
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #181717;
+    background-color:transparent;
+    cursor:pointer;
+    border: 1px solid #121010;
+    outline:none;
+    transition: 0.3s;
+}
+ body {
+width: 100%;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 80px;
+    background: FFFFFF;
+    box-shadow: inset;
+    z-index: index 999; 
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    }
+ #navbar li a {
+    text-decoration: none;
+    font-size: 16px; 
+    font-weight: 600;
+    color: #1a1a1a;
+    transition:0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color:#fd0808;
+}
+
+#hero{
+    background-image:url("https://github.com/saiharsha393/ecomm/blob/main/eesh%20ecomm.jpg?raw=true");
+    height:90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0%;
+    padding: 0 80px;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center; 
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+#hero h1 {
+    color:#fd0808;
+}
+#hero button {
+    background-color: transparent;
+    color: #fd0808;
+    border: 0;
+    padding: 14px 80px 14px 65;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+ }
+ #product1 {
+    text-align: center;
+}
+ #product1 .pro-container{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+
+ }
+ #product1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7de;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px Orgba(0, 0, 0, 0.02); margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+ }
+ #product1 .pro:hover {
+    box-shadow: 20px 20px;
+}
+ 
+ #product1 .pro img {
+    width: 100%;
+    border-radius: 20px;
+ }
+ #product1 .pro .des{
+    text-align: start;
+    padding: 10px;
+ }
+ #product1 .pro .des span{
+    color: #606063;
+    font-size: 12px;
+ }
+ #product1 .pro h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+ }
+
+ #sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+ #sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    background-image: url("https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-op%C3%A9ra-mm-monogram-canvas-handbags--M46478_PM2_Front%20view.png?wid=2048&hei=2048");
+    min-width: 630px;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+ }
+#sm-banner .banner-box2{
+    background-image: url("https://static.zara.net/photos///2021/I/2/1/p/4400/002/012/2/w/453/4400002012_6_2_1.jpg?ts=1634640588290");
+
+}
+
+ #sm-banner h4{
+    color: #181616;
+    font-size: 20px;
+    font-weight: 300;
+
+ }
+ #sm-banner h2{
+    color:#181616;
+    font-size: 28px;
+    font-weight: 800;
+    
+ }
+ #sm-banner span{
+    color: #181616;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    
+ }
+ #sm-banner .banner-box:hover button{
+    background: #fd0808;
+    border:1px solid #fd0808;
+ }
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+   
+}
+footer .logo{
+    margin-bottom: 30px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
